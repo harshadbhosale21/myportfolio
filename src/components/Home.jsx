@@ -12,9 +12,9 @@ const Home = () => {
                             <div className="row gy-4 w-100 justify-content-between">
                                 <div className="col-12 col-lg-5 d-flex flex-column text-center text-lg-start justify-content-center ">
                                     <h1 className='text-light home-text pb-4'>Hello There</h1>
-                                    <h1 className='text-light home-text'>I'M <span style={{ color: '  rgb(224, 2, 224)' }}>HARSHAD BHOSALE</span></h1>
+                                    <h1 className='text-light home-text'>I'M <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold' }}>HARSHAD BHOSALE</span></h1>
                                     <div className="py-3">
-                                        <h2 className='home-text' style={{ color: ' rgb(224, 2, 224)' }}>MERN STACK DEVELOPER</h2>
+                                        <h2 className='home-text' style={{ color: ' rgb(224, 2, 224)', fontWeight: 'bold' }}>MERN STACK DEVELOPER</h2>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-5 d-flex justify-content-center">
@@ -30,8 +30,8 @@ const Home = () => {
                                 <div className="col-12 col-lg-6">
                                     <h1 className="text-center text-light home-text">LET ME <span style={{ color: '  rgb(224, 2, 224)' }}>INTRODUCE</span> MYSELF</h1>
                                     <div className="intro-info mt-5 text-start">
-                                        <p className="text-light py-2 home-text">Passionate about creating dynamic web applications, I've immersed myself in the <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold' }}>MERN stack.</span> </p>
-                                        <p className="text-light py-2">Skilled in <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold' }}>MongoDB, Express.js, React.js, and Node.js,</span> I thrive on turning ideas into functional and user-friendly solutions.</p>
+                                        <p className="text-light py-2 home-text">Passionate about creating dynamic web applications, I've immersed myself in the <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold', fontStyle: 'italic' }}>MERN STACK.</span> </p>
+                                        <p className="text-light py-2">Skilled in <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold', fontStyle: 'italic' }}>MongoDB, Express.js, React.js, and Node.js,</span> I thrive on turning ideas into functional and user-friendly solutions.</p>
                                         <p className="text-light py-2">Beyond coding, I'm captivated by emerging technologies and enjoy exploring the endless possibilities they offer.</p>
                                     </div>
                                 </div>

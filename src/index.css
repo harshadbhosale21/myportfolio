@@ -37,6 +37,24 @@ main {
   padding: 10px 10px;
 }
 
+.nav-a:after {
+  background-color: rgb(224, 2, 224);
+  border-radius: 16px;
+  position: relative;
+  content: " ";
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 5px;
+  transition: all 0.3s;
+  margin: 3px;
+}
+
+.nav-a:hover::after {
+  width: 100%;
+}
+
 .section {
   width: 100%;
   /* height: auto; */
@@ -58,7 +76,7 @@ main {
   /* bottom: 0; */
   width: 100%;
   padding: 160px 0 60px 0;
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: hsla(0, 0%, 0%, 0.6);
 }
 
 .home-sec1 {
@@ -97,4 +115,13 @@ main {
 
 .social-links:hover>img {
   box-shadow: rgba(224, 2, 224, 0.56) 0px 22px 70px 14px;
+}
+
+/* ****************************************** ABOUT ***************************************************  */
+
+.about-info {
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
