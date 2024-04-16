@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Contact = () => {
+
+    const SubmitMsg = (e) => {
+        e.preventDefault();
+        alert('Message Successfully Sent!')
+    }
     return (
         <>
             <section className="section">
@@ -26,7 +31,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6 p-4 ">
-                                <form action="">
+                                <form action="" onSubmit={(e) => SubmitMsg(e)}>
                                     <div className="row gy-4 justify-content-between">
                                         <div className="col-12 d-flex flex-column align-items-center">
                                             <div className="form-floating mb-3 w-75">
@@ -46,7 +51,7 @@ const Contact = () => {
                                                 <label for="floatingTextarea2">Message</label>
                                             </div>
                                             <div className="text-center">
-                                                <button className="btn btn-success">
+                                                <button className="btn btn-success" type='submit' value='Submit'>
                                                     Send Message
                                                 </button>
                                             </div>
