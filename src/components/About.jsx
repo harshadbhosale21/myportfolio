@@ -102,7 +102,7 @@ const About = () => {
                             <h2 className='text-light'>My <span style={{ color: 'rgb(216, 1, 216)' }}>Services</span></h2>
                         </div>
                         <div className="row gy-4 justify-content-center pt-4">
-                            <div className="col-12 col-sm-4 p-2 mx-0 mx-lg-2 col-w">
+                            <div className="col-12 col-lg-4 p-2 mx-0 mx-lg-2 ">
                                 <div className="service-item p-4 text-start">
                                     <img src="/images/design.png" alt="" className='img-fluid my-2' />
                                     <h3 className="text-light mb-2 service-text">Web Design</h3>
@@ -110,18 +110,18 @@ const About = () => {
 
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-4 p-2 mx-0 mx-lg-2 col-w">
+                            <div className="col-12 col-lg-4 p-2 mx-0 mx-lg-2 ">
                                 <div className="service-item p-4 text-start">
                                     <img src="/images/webd.png" alt="" className='img-fluid my-2' />
-                                    <h3 className="text-light mb-2 service-text">Web Developement</h3>
+                                    <h3 className="text-light mb-2 service-text">Web Development</h3>
                                     <p className="text-light service-text pe-2">As a MERN stack developer, I specialize in building dynamic and responsive web applications. Leveraging the power of JavaScript, React, Node.js, and MongoDB, I develop robust and scalable solutions tailored to meet your specific needs</p>
 
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-4 p-2 mx-0 mx-lg-2 col-w">
+                            <div className="col-12 col-lg-4 p-2 mx-0 mx-lg-2">
                                 <div className="service-item p-4 text-start">
                                     <img src="/images/db.png" alt="" className='img-fluid my-2' />
-                                    <h3 className="text-light mb-2 service-text">Backend Developed</h3>
+                                    <h3 className="text-light mb-2 service-text">Backend Development</h3>
                                     <p className="text-light service-text pe-2">Behind every successful web application lies a strong and reliable backend infrastructure. With expertise in server-side technologies like Node.js and database management with MongoDB, I ensure seamless functionality and optimal performance for your web projects.</p>
                                 </div>
                             </div>
