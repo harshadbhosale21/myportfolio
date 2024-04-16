@@ -16,10 +16,10 @@ const Footer = () => {
                         </div>
 
                         <div className="col-12 col-md-4 text-center d-flex justify-content-center ">
-                            <NavLink to='https://github.com/harshadbhosale21'><img src="/images/repo.png" className='img-fluid p-2' alt="" /></NavLink>
-                            <NavLink to='https://www.linkedin.com/in/harshadbhosale21'><img src="/images/lik.png" className='img-fluid p-2' alt="" /></NavLink>
-                            <NavLink to='https://twitter.com/HarshadNBhosale'><img src="/images/tw.png" className='img-fluid p-2' alt="" /></NavLink>
-                            <NavLink to='https://www.instagram.com/bhosaleharshad_'><img src="/images/insta.png" className='img-fluid p-2' alt="" /></NavLink>
+                            <NavLink to='https://github.com/harshadbhosale21' target='_blank'><img src="/images/repo.png" className='img-fluid p-2' alt="" /></NavLink>
+                            <NavLink to='https://www.linkedin.com/in/harshadbhosale21' target='_blank'><img src="/images/lik.png" className='img-fluid p-2' alt="" /></NavLink>
+                            <NavLink to='https://twitter.com/HarshadNBhosale' target='_blank'><img src="/images/tw.png" className='img-fluid p-2' alt="" /></NavLink>
+                            <NavLink to='https://www.instagram.com/bhosaleharshad_' target='_blank'><img src="/images/insta.png" className='img-fluid p-2' alt="" /></NavLink>
                         </div>
 
                     </div>
