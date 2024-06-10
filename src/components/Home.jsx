@@ -29,7 +29,7 @@ const Home = () => {
                             <div className="row gy-4 justify-content-between">
                                 <div className="col-12 col-lg-6">
                                     <h1 className="text-center text-light home-text">LET ME <span style={{ color: '  rgb(224, 2, 224)' }}>INTRODUCE</span> MYSELF</h1>
-                                    <div className="intro-info mt-5 text-start">
+                                    <div className="intro-info mt-5 text-center text-lg-start">
                                         <p className="text-light py-2 home-text">Passionate about creating dynamic web applications, I've immersed myself in the <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold', fontStyle: 'italic' }}>MERN STACK.</span> </p>
                                         <p className="text-light py-2">Skilled in <span style={{ color: '  rgb(224, 2, 224)', fontWeight: 'bold', fontStyle: 'italic' }}>MongoDB, Express.js, React.js, and Node.js,</span> I thrive on turning ideas into functional and user-friendly solutions.</p>
                                         <p className="text-light py-2">Beyond coding, I'm captivated by emerging technologies and enjoy exploring the endless possibilities they offer.</p>

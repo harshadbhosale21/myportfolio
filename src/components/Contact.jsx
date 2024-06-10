@@ -1,10 +1,11 @@
 import React from 'react'
+import toast from 'react-hot-toast';
 
 const Contact = () => {
 
     const SubmitMsg = (e) => {
         e.preventDefault();
-        alert('Message Successfully Sent!')
+        toast.success('Message Sent !')
     }
     return (
         <>
@@ -16,14 +17,14 @@ const Contact = () => {
                             <p className="text-light my-2">Get in Touch</p>
                         </div>
                         <div className="row gy-4 my-4">
-                            <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-4">
-                                <div className="contact-item text-start bg-secondary px-4 w-75 my-3">
+                            <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-2">
+                                <div className="contact-item text-start bg-secondary px-2 w-75 my-3">
                                     <img src="" alt="" />
                                     <h3 className="text-light">Phone</h3>
                                     <p className="text-light">+91 9607357911</p>
                                 </div>
 
-                                <div className="contact-item text-start bg-secondary px-3 w-75 my-3">
+                                <div className="contact-item text-start bg-secondary px-2 w-75 my-3">
                                     <img src="" alt="" />
                                     <h3 className="text-light">Email</h3>
                                     <p className="text-light mb-1">bhosaleharshad081@gmail.com</p>

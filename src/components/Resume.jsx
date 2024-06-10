@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import resume from '../docs/Bhosale-Harshad-CV.pdf';
+import resume from '../docs/Bhosale-Harshad-CV.pdf.pdf';
 
 const Resume = () => {
 
@@ -19,7 +19,7 @@ const Resume = () => {
                         <div className="row gy-4">
                             <div className="col-lg-12 text-center">
                                 <div className="frame">
-                                    <img src="/images/resume.png" className='img-fluid' alt="" />
+                                    <img src="/images/resume.jpg" className='img-fluid' alt="" />
                                 </div>
                             </div>
                         </div>

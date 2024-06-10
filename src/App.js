@@ -9,6 +9,7 @@ import Projects from './components/Projects.jsx';
 import Resume from './components/Resume.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           </Routes>
           <Footer />
         </Router>
+        <Toaster />
       </main>
     </>
   )
