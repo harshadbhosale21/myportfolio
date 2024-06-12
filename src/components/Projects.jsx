@@ -23,7 +23,7 @@ const Projects = () => {
                                             <span className='px-1'><img src="/images/Repo.png" className='img-fluid' alt="" /></span>
                                             Github
                                         </a>
-                                        <a className='project-btn mx-2 py-1 px-2' href='https://urbanhive.netlify.app/' target='_blank' rel='noreferrer'>
+                                        <a className='project-btn mx-2 py-1 px-2' href='https://urbanhivehb.netlify.app/' target='_blank' rel='noreferrer'>
                                             <span className='px-1'><img src="/images/demo.png" className='img-fluid' alt="" /></span>
                                             Demo
                                         </a>
